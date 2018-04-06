@@ -1,0 +1,5 @@
+{
+	"SUCC" 					: { "code" : 0,	 "desc" : "success" },
+	"SERVER_INTERNAL_ERR" 	: { "code" : -1, "desc" : "server internal error" },
+	"INVALID_REQUEST" 		: { "code" : -2, "desc" : "invalid request" }
+}
