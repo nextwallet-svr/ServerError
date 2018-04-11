@@ -12,14 +12,12 @@ def build_error_result(error_dict, error_tag):
     desc = ''
     try:
         if not error_dict.__contains__(error_tag):
-            # print(error_dict)
-            # print(error_dict["SERVER_INTERNAL_ERR"], error_tag)
-            raise('not support error_tag')
+            raise Exception('not support error_tag')
         else:
             # print(error_dict[error_tag], error_tag)
             code = error_dict[error_tag]["code"]
             desc = error_dict[error_tag]["desc"]
-    except Exception as e:
+    except (Exception) as e:
         print(e, error_tag)
         code = error_dict["SERVER_INTERNAL_ERR"]["code"]
         desc = error_dict["SERVER_INTERNAL_ERR"]["desc"]
