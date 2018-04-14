@@ -14,7 +14,6 @@ def build_error_result(error_dict, error_tag):
         if not error_dict.__contains__(error_tag):
             raise Exception('not support error_tag')
         else:
-            # print(error_dict[error_tag], error_tag)
             code = error_dict[error_tag]["code"]
             desc = error_dict[error_tag]["desc"]
     except (Exception) as e:
