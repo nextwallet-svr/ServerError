@@ -1,5 +1,5 @@
 import json
-
+import os
 def load_error_desc(filename):
     error_dict = {}
 
@@ -22,3 +22,13 @@ def build_error_result(error_dict, error_tag):
         desc = error_dict["SERVER_INTERNAL_ERR"]["desc"]
     finally:
         return { "retcode": code, "message" : desc }
+
+
+
+server_error_dict = load_error_desc(os.path.abspath(os.path.dirname(__file__)) + "/serverError.json")
+
+def ErrorRsp(err_tag):
+    return build_error_result(server_error_dict, err_tag)
+
+SUCCESS =  ErrorRsp('SUCC')
+FAIL =  ErrorRsp('SERVER_INTERNAL_ERR')
