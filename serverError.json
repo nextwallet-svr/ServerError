@@ -7,5 +7,5 @@
     "transaction already in block chain. Code:-27"  : { "code" : -5, "desc" : "transaction already in block chain." },
     "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
     "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
-    "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" },
+    "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" }
 }
