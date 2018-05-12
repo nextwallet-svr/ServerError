@@ -4,5 +4,9 @@
     "INVALID_REQUEST"       : { "code" : -2, "desc" : "invalid request" },
     "UNSUPPORT_TOKEN"       : { "code" : -3, "desc" : "unsupport token" },
     "TX decode failed. Code:-22"    : { "code" : -4, "desc" : "tx decode failed" },
-    "transaction already in block chain. Code:-27"  : { "code" : -5, "desc" : "transaction already in block chain." }
+    "transaction already in block chain. Code:-27"  : { "code" : -5, "desc" : "transaction already in block chain." },
+
+    // eth multisig wallet return code
+    "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
+    "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
 }
