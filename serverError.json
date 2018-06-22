@@ -9,5 +9,7 @@
     "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
     "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
     "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" },
-    "EOS_CREATED_ACCOUNT_IN_DEVICE" : { "code" : -201, "desc" : "Has created eos account for this device" }
+    "EOS_CREATED_ACCOUNT_IN_DEVICE" : { "code" : -201, "desc" : "Has created eos account for this device" },
+    "EOS_ACCOUNT_EXSIT" : { "code" : -202, "desc" : "Acocunt name has existed" },
+    "EOS_CREATE_ACCOUNT_FAIL" : { "code" : -203, "desc" : "Create acocunt fail" }
 }
