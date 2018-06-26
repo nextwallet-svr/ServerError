@@ -8,5 +8,11 @@
     "WEB3_DISCONNECT"       : { "code" : -6, "desc" : "web3 provider disconnect" },
     "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
     "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
-    "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" }
+    "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" },
+    "NO_PARAM_SEND"        : { "code" : -201, "desc" : "no parameter send to the API" },
+    "INVALID_PHONE"        : { "code" : -202, "desc" : "invalid phone number in China mainland" },
+    "INVALID_MAIL"         : { "code" : -203, "desc" : "invalid mail address" },
+    "HAVE_BEEN_SEND"       : { "code" : -204, "desc" : "sms have been send" },
+    "NO_RECORD_FOUND"      : { "code" : -205, "desc" : "can't find verification record in db" },
+    "VERIFY_FAILED"        : { "code" : -206, "desc" : "the verification code is wrong" }
 }
