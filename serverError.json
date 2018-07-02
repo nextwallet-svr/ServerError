@@ -13,6 +13,7 @@
     "EOS_CREATED_ACCOUNT_IN_DEVICE" : { "code" : -201, "desc" : "Has created eos account for this device" },
     "EOS_ACCOUNT_EXSIT" : { "code" : -202, "desc" : "Acocunt name has existed" },
     "EOS_CREATE_ACCOUNT_FAIL" : { "code" : -203, "desc" : "Create acocunt fail" },
+    "EOS_ACCOUNT_INVALID" : { "code" : -204, "desc" : "acocunt invalid" },
 
     "NO_PARAM_SEND"        : { "code" : -301, "desc" : "no parameter send to the API" },
     "INVALID_PHONE"        : { "code" : -302, "desc" : "invalid phone number in China mainland" },
