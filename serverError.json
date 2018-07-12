@@ -6,6 +6,8 @@
     "TX decode failed. Code:-22"    : { "code" : -4, "desc" : "tx decode failed" },
     "transaction already in block chain. Code:-27"  : { "code" : -5, "desc" : "transaction already in block chain." },
     "WEB3_DISCONNECT"       : { "code" : -6, "desc" : "web3 provider disconnect" },
+    "INVALID_TOKEN_ADDRESS" : { "code" : -7, "desc" : "invalid token address" },
+
     "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
     "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
     "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" },
@@ -15,6 +17,7 @@
     "EOS_CREATE_ACCOUNT_FAIL" : { "code" : -203, "desc" : "Create acocunt fail" },
     "EOS_ACCOUNT_INVALID" : { "code" : -204, "desc" : "acocunt invalid" },
     "EOS_DEVICEID_NOT_EXIST" : { "code" : -205, "desc" : "deviceid not exist" },
+    "EOS_CREATE_SERVICE_CLOSE" : { "code" : -206, "desc" : "create account service close" },
 
     "NO_PARAM_SEND"        : { "code" : -301, "desc" : "no parameter send to the API" },
     "INVALID_PHONE"        : { "code" : -302, "desc" : "invalid phone number in China mainland" },
