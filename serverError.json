@@ -11,6 +11,13 @@
     "MW_CREATE_FAIL"       : { "code" : -101, "desc" : "multisig wallet create fail" },
     "MW_CREATE_PENDING"    : { "code" : -102, "desc" : "multisig wallet create pending" },
     "MW_CREATE_TX_INVALID" : { "code" : -103, "desc" : "multisig wallet transaciton is invalid" },
+    "MW_TRANSACTION_EXEC_FAIL" : { "code" : -104, "desc" : "multisig wallet transaciton exec fail" },
+    "MW_ADD_EXISTED_OWNER" : { "code" : -105, "desc" : "multisig wallet join an exist owner" },
+    "MW_ADD_OWNER_REACH_UPLIMIT" : { "code" : -106, "desc" : "multisig wallet owner reach uplimit" },
+    "MW_TRANSFER_NOT_EXIST" : { "code" : -107, "desc" : "multisig wallet transaciton not exist" },
+    "MW_TRANSFER_DUPLICATE_CONFIRM" : { "code" : -108, "desc" : "multisig wallet transaciton confirm duplicate" },
+    "MW_TRANSACTION_DUPLICATE_EXEC" : { "code" : -109, "desc" : "multisig wallet transaciton exec duplicate" },
+    "MW_TRANSFER_EXPIRED" : { "code" : -103, "desc" : "multisig wallet transaciton expired" },
 
     "EOS_CREATED_ACCOUNT_IN_DEVICE" : { "code" : -201, "desc" : "Has created eos account for this device" },
     "EOS_ACCOUNT_EXSIT" : { "code" : -202, "desc" : "Acocunt name has existed" },
