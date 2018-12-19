@@ -38,5 +38,7 @@
     "INVALID_ORDER"        : { "code" : -403, "desc" : "mall invalid order" },
     "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "mall goods balance insufficient" },
 
-    "INVALID_REDPACKET"     : { "code" : -501, "desc" : "invalid red packet" }
+    "INVALID_REDPACKET"     : { "code" : -501, "desc" : "invalid red packet" },
+    "GEN_REDPACKET_UPLIMIT" : { "code" : -502, "desc" : "gen red packet num reach uplimit" },
+    "REPEAT_DRAW_REDPACKET" : { "code" : -503, "desc" : "repeat draw same red packet" }
 }
