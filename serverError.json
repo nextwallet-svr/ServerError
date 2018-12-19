@@ -36,5 +36,7 @@
     "INSUFFICIENT_INVENTORY": { "code" : -401, "desc" : "mall goods inventory insufficient" },
     "INVALID_GOODS"        : { "code" : -402, "desc" : "mall invalid goods" },
     "INVALID_ORDER"        : { "code" : -403, "desc" : "mall invalid order" },
-    "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "mall goods balance insufficient" }
+    "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "mall goods balance insufficient" },
+
+    "INVALID_REDPACKET"     : { "code" : -501, "desc" : "invalid red packet" }
 }
