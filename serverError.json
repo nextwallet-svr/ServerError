@@ -1,5 +1,6 @@
 {
     "SUCC"                  : { "code" : 0,  "desc" : "success" },
+    "INTERNAL_SVR_ERROR"    : { "code" : 500, "desc" : "INTERNAL_SVR_ERROR" },
     "SERVER_INTERNAL_ERR"   : { "code" : -1, "desc" : "server internal error" },
     "INVALID_REQUEST"       : { "code" : -2, "desc" : "invalid request" },
     "UNSUPPORT_TOKEN"       : { "code" : -3, "desc" : "unsupport token" },
