@@ -37,12 +37,5 @@
     "INSUFFICIENT_INVENTORY": { "code" : -401, "desc" : "mall goods inventory insufficient" },
     "INVALID_GOODS"        : { "code" : -402, "desc" : "mall invalid goods" },
     "INVALID_ORDER"        : { "code" : -403, "desc" : "mall invalid order" },
-    "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "balance insufficient" },
-
-    "INVALID_REDPACKET"     : { "code" : -501, "desc" : "invalid red packet" },
-    "GEN_REDPACKET_UPLIMIT" : { "code" : -502, "desc" : "gen red packet num reach uplimit" },
-    "REPEAT_DRAW_REDPACKET" : { "code" : -503, "desc" : "repeat draw same red packet" },
-    "REDPACKET_ACTIVITY_FINISH" : { "code" : -504, "desc" : "red packet activity finished" },
-    "REACH_DRAW_UPLIMIT"    : { "code" : -505, "desc" : "reach draw packet limit" },
-    "REPEAT_DRAW_SAMEOWNER" : { "code" : -506, "desc" : "repeat draw red packet from the same owner" }
+    "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "balance insufficient" }
 }
