@@ -33,9 +33,4 @@
     "HAVE_BEEN_SEND"       : { "code" : -304, "desc" : "message have been send" },
     "NO_RECORD_FOUND"      : { "code" : -305, "desc" : "can't find verification record in db" },
     "VERIFY_FAILED"        : { "code" : -306, "desc" : "the verification code is wrong" },
-
-    "INSUFFICIENT_INVENTORY": { "code" : -401, "desc" : "mall goods inventory insufficient" },
-    "INVALID_GOODS"        : { "code" : -402, "desc" : "mall invalid goods" },
-    "INVALID_ORDER"        : { "code" : -403, "desc" : "mall invalid order" },
-    "INSUFFICIENT_BALANCE" : { "code" : -404, "desc" : "balance insufficient" }
 }
