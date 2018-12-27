@@ -32,5 +32,5 @@
     "INVALID_MAIL"         : { "code" : -303, "desc" : "invalid mail address" },
     "HAVE_BEEN_SEND"       : { "code" : -304, "desc" : "message have been send" },
     "NO_RECORD_FOUND"      : { "code" : -305, "desc" : "can't find verification record in db" },
-    "VERIFY_FAILED"        : { "code" : -306, "desc" : "the verification code is wrong" },
+    "VERIFY_FAILED"        : { "code" : -306, "desc" : "the verification code is wrong" }
 }
