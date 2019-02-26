@@ -36,5 +36,16 @@
     "TOKEN_EXPIRED"         : { "code" : 1000, "desc": "登录过期, 请重新登录"},
     "MISSING_AUTH_HEADER"         : { "code" : 1001, "desc": "缺少登录信息, 请先登录"},
     "INVALID_TOKEN_ERROR"         : { "code" : 1002, "desc": "登录信息无效, 请重新登录"},
-    "CANNOT_DELETE_DEFAULT_LOCATION" : { "code" : 2001, "desc": "不能删除默认地点"}
+    "ALREADY_JOINED_OTHER_AGENCY"    : { "code" : 2001, "desc": "请先退出原有机构"},
+    "AGENCY_MEMBER_FULL"    : { "code" : 2002, "desc": "请先退出原有机构"},
+    "INVITATION_EXPIRED"    : { "code" : 2003, "desc": "邀请已失效"},
+    "ALREADY_JOINED_AGENCY"    : { "code" : 2004, "desc": "您已经是该机构的成员"},
+    "CANNOT_TRANSFER_TO_NON_ADMIN"    : { "code" : 2005, "desc": "只能移交给管理员"},
+    "CANNOT_TRANSFER_TO_SELF"    : { "code" : 2006, "desc": "不能移交给自己"},
+    "TRANSFER_OWNERSHIP_FAILED"    : { "code" : 2007, "desc": "移交失败"},
+    "CANNOT_REMOVE_SELF"    : { "code" : 2008, "desc": "不能移除自己"},
+    "ALREADY_HAS_ADMIN_PRIVILEGE"    : { "code" : 2009, "desc": "目标用户已经是管理员了"},
+    "AGENCY_ADMIN_FULL"    : { "code" : 2009, "desc": "管理员人数达到上限"},
+    "CANNOT_DELETE_DEFAULT_LOCATION" : { "code" : 2999, "desc": "不能删除默认地点"},
+    "PERMISSION_DENIED": {"code": 3001, "desc": "您无权进行该操作"}
 }
