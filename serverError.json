@@ -35,5 +35,6 @@
     "VERIFY_FAILED"        : { "code" : -306, "desc" : "the verification code is wrong" },
     "TOKEN_EXPIRED"         : { "code" : 1000, "desc": "登录过期, 请重新登录"},
     "MISSING_AUTH_HEADER"         : { "code" : 1001, "desc": "缺少登录信息, 请先登录"},
-    "INVALID_TOKEN_ERROR"         : { "code" : 1002, "desc": "登录信息无效, 请重新登录"}
+    "INVALID_TOKEN_ERROR"         : { "code" : 1002, "desc": "登录信息无效, 请重新登录"},
+    "CANNOT_DELETE_DEFAULT_LOCATION" : { "code" : 2001, "desc": "不能删除默认地点"}
 }
