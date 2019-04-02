@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 
 def load_error_desc(filename):
@@ -10,7 +11,7 @@ def load_error_desc(filename):
     return error_dict
 
 
-def build_error_result(error_dict, error_tag, *extra_info):
+def build_error_result(error_dict, error_tag, *extra_info, **kwargs):
     code = 0
     desc = ''
     try:
@@ -28,6 +29,13 @@ def build_error_result(error_dict, error_tag, *extra_info):
         final = {"retcode": code, "message": desc}
         if extra_info:
             final['extra'] = extra_info
+        if kwargs:
+            final['extra'] = kwargs
+            if re.findall('\{\w+\}', desc):
+                try:
+                    final['message'] = desc.format(**kwargs)
+                except KeyError as e:
+                    pass
         return final
 
 
@@ -35,8 +43,8 @@ server_error_dict = load_error_desc(os.path.abspath(
     os.path.dirname(__file__)) + "/serverError.json")
 
 
-def ErrorRsp(err_tag, *extra_info):
-    return build_error_result(server_error_dict, err_tag, *extra_info)
+def ErrorRsp(err_tag, *extra_info, **kwargs):
+    return build_error_result(server_error_dict, err_tag, *extra_info, **kwargs)
 
 
 SUCCESS = ErrorRsp('SUCC')
