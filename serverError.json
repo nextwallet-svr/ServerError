@@ -51,5 +51,10 @@
     "PUSH_MESSAGE_TOO_FREQUENTLY": {"code": 4001, "desc": "推送消息过于频繁"},
     "NO_CHANCE_TO_PUSH": {"code": 4002, "desc": "没有推送机会了"},
 
+    "ACTIVITY_NOT_FOUND": {"code": 5001, "desc": "活动不存在"},
+    "ARTICLE_NOT_FOUND": {"code": 5002, "desc": "文章不存在"},
+    "BCARD_NOT_FOUND": {"code": 5003, "desc": "名片不存在"},
+    "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
+
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
