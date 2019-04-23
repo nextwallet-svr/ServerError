@@ -55,6 +55,7 @@
     "ARTICLE_NOT_FOUND": {"code": 5002, "desc": "文章不存在"},
     "BCARD_NOT_FOUND": {"code": 5003, "desc": "名片不存在"},
     "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
+    "WECHAT_EXCEPTION": {"code": 666, "desc": "微信处理报错"},
 
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
