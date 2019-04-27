@@ -57,5 +57,7 @@
     "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
     "WECHAT_EXCEPTION": {"code": 666, "desc": "微信处理报错"},
 
+    "CANNOT_TRANSFER_DEDICATED_AGENCY": {"code": 6001, "desc": "该机构不可移交，如需移交请联系客服。"},
+
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
