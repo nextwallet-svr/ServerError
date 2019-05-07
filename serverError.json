@@ -47,7 +47,9 @@
     "ALREADY_HAS_ADMIN_PRIVILEGE"    : { "code" : 2009, "desc": "目标用户已经是管理员了"},
     "AGENCY_ADMIN_FULL"    : { "code" : 2009, "desc": "管理员人数达到上限"},
     "CANNOT_DELETE_DEFAULT_LOCATION" : { "code" : 2999, "desc": "不能删除默认地点"},
+
     "PERMISSION_DENIED": {"code": 3001, "desc": "您无权进行该操作"},
+
     "PUSH_MESSAGE_TOO_FREQUENTLY": {"code": 4001, "desc": "推送消息过于频繁"},
     "NO_CHANCE_TO_PUSH": {"code": 4002, "desc": "没有推送机会了"},
 
@@ -55,6 +57,8 @@
     "ARTICLE_NOT_FOUND": {"code": 5002, "desc": "文章不存在"},
     "BCARD_NOT_FOUND": {"code": 5003, "desc": "名片不存在"},
     "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
+    "ACTIVITY_FINISHED": {"code": 5005, "desc": "活动已经结束啦"},
+
     "WECHAT_EXCEPTION": {"code": 666, "desc": "微信处理报错"},
 
     "CANNOT_TRANSFER_DEDICATED_AGENCY": {"code": 6001, "desc": "该机构不可移交，如需移交请联系客服。"},
