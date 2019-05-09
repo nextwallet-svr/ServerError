@@ -58,6 +58,7 @@
     "BCARD_NOT_FOUND": {"code": 5003, "desc": "名片不存在"},
     "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
     "ACTIVITY_FINISHED": {"code": 5005, "desc": "活动已经结束啦"},
+    "CUT_IS_DONE": {"code": 5006, "desc": "已经砍到底啦!"},
 
     "WECHAT_EXCEPTION": {"code": 666, "desc": "微信处理报错"},
 
