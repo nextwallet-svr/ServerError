@@ -59,6 +59,7 @@
     "AGENCY_NOT_FOUND": {"code": 5004, "desc": "机构不存在"},
     "ACTIVITY_FINISHED": {"code": 5005, "desc": "活动已经结束啦"},
     "CUT_IS_DONE": {"code": 5006, "desc": "已经砍到底啦!"},
+    "NO_AVAILABLE_ROOM": {"code": 5007, "desc": "报名人数已达上限, 请联系客服咨询"},
 
     "WECHAT_EXCEPTION": {"code": 666, "desc": "微信处理报错"},
 
