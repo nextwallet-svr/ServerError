@@ -70,5 +70,7 @@
 
     "MAKEUP_IS_FORBIDDEN": {"code": 8001, "desc": "补打卡已被管理员禁用"},
     
+    "NO_SHEET_WILL_BE_EXPORTED": {"code": 9001, "desc": "没有可以导出的表格"},
+    
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
