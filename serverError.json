@@ -69,6 +69,9 @@
     "PAY_PENDING_ORDER_FIRST": {"code": 7001, "desc": "已经有重复的订单啦, 请前往未支付的订单进行付款。"},
 
     "MAKEUP_IS_FORBIDDEN": {"code": 8001, "desc": "补打卡已被管理员禁用"},
+    "NO_VOTE_TICKET": {"code": 8002, "desc": "投票次数已耗尽"},
+    "ALREADY_VOTED": {"code": 8003, "desc": "已经投过啦"},
+    "ALREADY_REQUESTED": {"code": 8004, "desc": "请等前一个申请被处理后再发起新的申请"},
     
     "NO_SHEET_WILL_BE_EXPORTED": {"code": 9001, "desc": "没有可以导出的表格"},
     
