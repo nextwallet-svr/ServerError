@@ -72,6 +72,8 @@
     "NO_VOTE_TICKET": {"code": 8002, "desc": "投票次数已耗尽"},
     "ALREADY_VOTED": {"code": 8003, "desc": "已经投过啦"},
     "ALREADY_REQUESTED": {"code": 8004, "desc": "请等前一个申请被处理后再发起新的申请"},
+    "VOTE_NOT_STARTED_YET": {"code": 8005, "desc": "投票活动尚未开始"},
+    "VOTE_IS_ENDED": {"code": 8006, "desc": "投票活动已经结束"},
     
     "NO_SHEET_WILL_BE_EXPORTED": {"code": 9001, "desc": "没有可以导出的表格"},
     
