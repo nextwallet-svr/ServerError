@@ -77,5 +77,7 @@
     
     "NO_SHEET_WILL_BE_EXPORTED": {"code": 9001, "desc": "没有可以导出的表格"},
     
+    "MISSING_PROMITION_ENTRY": {"code": 9100, "desc": "请填写所有信息"},
+    
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
