@@ -79,5 +79,7 @@
     
     "MISSING_PROMITION_ENTRY": {"code": 9100, "desc": "请填写所有信息"},
     
+    "NSFW_CHECK_NOT_PASS": {"code": 9999, "desc": "请勿发布包含敏感信息的内容"},
+    
     "LAST_ERROR": {"code": 999999, "desc": "恭喜你找到了One Piece!"}
 }
